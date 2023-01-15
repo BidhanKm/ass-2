@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Primary font  */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* start header style  */
+.container {
+    background: rgba(255, 144, 14, 0.1);
+    ;
+}
+
+.header-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title h1 {
+    margin-top: 50px;
+    margin-left: 125px;
+    font-size: 35px;
+    color: #131313;
+}
+
+nav {
+    margin-top: 63px;
+    margin-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+.header-info {
+    text-align: center;
+    margin-top: 116px;
+}
+
+.header-info h1 {
+    font-size: 55px;
+    color: #131313;
+}
+
+.header-info p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.btn {
+    width: 280px;
+    height: 60px;
+    background: #FF900E;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 33px;
+}
+
+.header-img {
+    text-align: center;
+}
+
+.header-img img {
+    width: 1100px;
+    height: 500px;
+    border-radius: 8px;
+    margin: 50px auto 20px;
+}
+
+/* End header styles  */
+
+/*..........................
+      Start main section styles 
+     ............................ */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 85px 50px 0px 90px;
+}
+
+
+.main-container-img {
+    display: grid;
+    grid-template-columns: repeat(2, 270px);
+    column-gap: 8px;
+}
+
+.main-container-img img {
+    width: 270px;
+    height: 270px;
+    border-radius: 8px;
+}
+
+.main-container-about {
+    width: 500px;
+    height: 304px;
+    margin-top: 150px;
+}
+
+.Quick-list {
+    color: #727272;
+    font-weight: 500;
+    font-size: 33px;
+}
+
+.of-Our {
+    color: #131313;
+    font-weight: 500;
+    font-size: 33px;
+}
+
+.Features {
+    color: #FF900E;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.main-container-about p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+
+.main-btn {
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    width: 150px;
+    height: 55px;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 32px;
+}
+
+/* ................
+      end main section container
+      ......... */
+
+/*................
+      start main section content
+      .............  */
+
+.main-section-content {
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 120px 50px 0px 50px;
+
+}
+
+.main-content-about {
+    width: 586px;
+    height: 700px;
+}
+
+.content-title h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.content-title p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 2rem;
+
+}
+
+.content-title h1 {
+    font-weight: 600;
+    font-size: 35px;
+    color: #131313;
+    border-left: 3px solid #FF900E;
+    margin-bottom: 24px;
+    margin-left: 35px;
+
+}
+
+.content-info {
+    margin-top: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 10px;
+}
+
+.content-info h3 {
+    margin-bottom: 10px;
+}
+
+.architect {
+
+    position: absolute;
+}
+
+.architect img {
+    width: 500px;
+    height: 600px;
+}
+
+.ten-year {
+    width: 200px;
+    height: 120px;
+    background: #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    top: 32rem;
+    right: 3rem;
+}
+
+.ten-year h1 {
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+
+.ten-year p {
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.content-decription {
+    margin-left: 4rem;
+}
+
+/* Start main description styles */
+.description-about {
+    margin-left: 150px;
+}
+
+.description-about h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #131313;
+}
+
+.description-about p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #727272;
+    margin-top: 20px;
+}
+
+.main-description-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 200px 100px 200px;
+    column-gap: 40px;
+}
+
+.description-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+
+    transition: transform 4s;
+}
+
+
+.description-box:hover {
+    transform: rotate(90deg);
+}
+
+.description-box img {
+    width: 40px;
+    height: 40px;
+    margin-top: 3rem;
+}
+
+.description-box h3 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #424242;
+}
+
+.description-box p {
+    color: #727272;
+}
+
+/* End main description styles */
+
+/* ....................
+        start footer styles
+          .................. */
+footer {
+    text-align: center;
+}
+
+.footer-container h1 {
+    font-size: 35px;
+    color: #131313;
+    margin-bottom: 20px;
+}
+
+.footer-container p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.sponspors-img {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 90px 0px 90px;
+}
+
+.sponspors img {
+    width: 145px;
+    height: 35px;
+}
+
+.copy {
+    margin: 100px auto 100px;
+    width: 900px;
+    height: 70px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
+.copy p {
+    font-weight: 300;
+    font-size: 15px;
+    color: #424242;
+    text-align: center;
+    padding-top: 25px;
+}
+
+/* ....................
+        End footer styles
+          .................. */
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .header-title {
+        height: 45px;
+    }
+
+    .header-title h1 {
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 25px;
+    }
+
+    .header-title nav {
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: 150px;
+    }
+
+    .header-info h1 {
+        font-size: 40px;
+    }
+
+    .header-info p {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .btn {
+        width: 200px;
+        height: 60px;
+        font-weight: 500;
+        font-size: 17px;
+        margin-top: 33px;
+    }
+
+    .header-img img {
+        width: 100%;
+        height: 392px;
+        margin: 50px auto 20px;
+    }
+
+
+    .main-container {
+        flex-direction: column;
+
+    }
+
+    .main-container-img {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .main-container-img img {
+        width: 300px;
+        height: 600px;
+        margin-top: 4rem;
+
+    }
+
+    .main-container-about {
+        width: 700px;
+        height: 450px;
+        margin-top: 50px;
+    }
+
+    .main-container-about p {
+        font-size: 30px;
+    }
+
+    .Features {
+        font-size: 70px;
+        font-weight: 700;
+    }
+
+    .main-btn {
+        background: #FF900E;
+        border-radius: 8px;
+        border: none;
+        color: #FFFFFF;
+        width: 300px;
+        height: 75px;
+        font-weight: 500;
+        font-size: 25px;
+
+    }
+
+    .Quick-list,
+    .of-Our {
+        font-weight: 500;
+        font-size: 70px;
+    }
+
+    .main-section-content {
+        flex-direction: column;
+    }
+
+    .main-content-about {
+        height: 500px;
+        width: 700px;
+    }
+
+    .content-title h1 {
+        font-weight: 600;
+        font-size: 50px;
+    }
+
+    .content-title p {
+        font-weight: 400;
+        font-size: 40px;
+    }
+
+
+
+
+    .footer-container {
+        height: 900px;
+    }
+
+}
